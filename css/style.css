@@ -1,0 +1,53 @@
+a.navbar-brand {
+  font-family: "Playfair display";
+  font-style: italic;
+  font-weight: bold;
+  color: #E92569;
+  text-decoration: none;
+}
+
+.nav-link {
+  font-family: "Lato";
+  font-size: 16px;
+  color: #0A0A0A;
+}
+
+.active {
+  background-color: #FFFFFF;
+}
+
+.btn {
+  color: #FFFFFF;
+  background-color: #E92569;
+}
+
+.btn-outline-success {
+  border-color: #E92569;
+}
+
+body {
+  background: radial-gradient(#FFFFFF, #EFEFEF);
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.card {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: #E92569;
+  font-family: "Playfair display";
+}
+
+p {
+  color: #0A0A0A;
+  font-family: "Lato";
+}
+/*# sourceMappingURL=style.css.map */

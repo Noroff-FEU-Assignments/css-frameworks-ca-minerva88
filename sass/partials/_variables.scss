@@ -1,0 +1,21 @@
+$colors: (
+    pink: #E92569,
+    darkgrey: #767676,
+    grey: #C7C7C7,
+    lightgrey: #EFEFEF,
+    white: #FFFFFF,
+    black: #0A0A0A,
+);
+
+@function getColor($color) {
+    @return map-get($colors, $color);
+}
+
+$fonts: (
+    header: 'Playfair display',
+    paragraph: 'Lato',
+);
+
+@function getFont($font) {
+    @return map-get($fonts, $font);
+}

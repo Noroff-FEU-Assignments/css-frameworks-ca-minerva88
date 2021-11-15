@@ -1,0 +1,27 @@
+a.navbar-brand {
+    font-family: getFont(header);
+    font-style: italic;
+    font-weight: bold;
+    color: getColor(pink);
+    text-decoration: none;
+}
+
+.nav-link {
+    font-family: getFont(paragraph);
+    font-size: 16px;
+    color: getColor(black);
+}
+
+.active {
+    background-color: getColor(white);
+}
+
+.btn {
+    color: getColor(white);
+    background-color: getColor(pink);
+}
+
+.btn-outline-success {
+    border-color: getColor(pink);
+}
+
