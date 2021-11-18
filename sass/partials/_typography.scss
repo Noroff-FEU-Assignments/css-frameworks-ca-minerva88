@@ -3,6 +3,10 @@ h1 {
     font-family: getFont(header);
 }
 
+h5 {
+    font-family: getFont(paragraph);
+}
+
 p {
     color: getColor(black);
     font-family: getFont(paragraph);

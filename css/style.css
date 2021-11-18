@@ -16,13 +16,14 @@ a.navbar-brand {
   background-color: #FFFFFF;
 }
 
-.btn {
-  color: #FFFFFF;
-  background-color: #E92569;
+.navbar-toggler-icon {
+  color: #E92569;
 }
 
 .btn-outline-success {
   border-color: #E92569;
+  background-color: #E92569;
+  color: #FFFFFF;
 }
 
 body {
@@ -46,8 +47,37 @@ h1 {
   font-family: "Playfair display";
 }
 
+h5 {
+  font-family: "Lato";
+}
+
 p {
   color: #0A0A0A;
   font-family: "Lato";
+}
+
+.btn-secondary {
+  background-color: #FFFFFF;
+  border-color: #E92569;
+  color: #E92569;
+}
+
+.active-s-btn {
+  background-color: #E92569;
+  color: #FFFFFF;
+}
+
+.card {
+  margin: 20px 0;
+}
+
+.btn-primary {
+  background-color: #E92569;
+  border-color: #E92569;
+}
+
+.btn-primary:hover {
+  background-color: #767676;
+  border-color: #767676;
 }
 /*# sourceMappingURL=style.css.map */

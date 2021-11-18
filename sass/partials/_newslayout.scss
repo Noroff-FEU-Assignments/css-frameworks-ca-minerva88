@@ -1,0 +1,25 @@
+.btn-secondary {
+    background-color: getColor(white);
+    border-color: getColor(pink);
+    color: getColor(pink);
+    
+}
+
+.active-s-btn {
+    background-color: getColor(pink);
+    color: getColor(white);
+}
+
+.card {
+    margin: 20px 0;
+}
+
+.btn-primary {
+    background-color: getColor(pink);
+    border-color: getColor(pink);
+}
+
+.btn-primary:hover {
+    background-color: getColor(darkgrey);
+    border-color: getColor(darkgrey);
+}

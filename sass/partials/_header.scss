@@ -16,12 +16,13 @@ a.navbar-brand {
     background-color: getColor(white);
 }
 
-.btn {
-    color: getColor(white);
-    background-color: getColor(pink);
+.navbar-toggler-icon {
+    color: getColor(pink);
 }
 
 .btn-outline-success {
     border-color: getColor(pink);
+    background-color: getColor(pink);
+    color: getColor(white);
 }
 
